@@ -275,16 +275,23 @@
     max-width: 80%;
 }
 
-.contenedornewsletter{
+
+
+/* PAGINA CONTACTO */
+
+.banner {
     background-color: #E8581A;
-    padding: 1rem;
+    padding: 20px 8px 20px 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contenedornewsletter h3, .contenedornewsletter p {
+.banner h3, .banner p {
     color: #F6E6D8;
 }
+
+
+
 
 footer{
     line-height: 5px;
