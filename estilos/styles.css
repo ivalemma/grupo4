@@ -291,7 +291,11 @@
 }
 
 
+/* PAGINA NOTICIAS MOBILE */
 
+.noticias{
+    padding: 16px;
+}
 
 footer{
     line-height: 5px;
@@ -324,16 +328,6 @@ footer{
     }
     .logolanding{
         width: 160px;
-    }
-
-    .navbar img{
-        margin-left: 1rem;
-        height: 50px;
-    }
-    
-    .navbaritem {
-        margin: 5px;
-        padding: 10PX;
     }
 
     .tarjeta1 {
@@ -412,36 +406,6 @@ footer{
 
 /* MOBILE */
 
-@media (max-width:480px) {
-
-
-/* NAVBAR */
-
-.navbar img{
-    margin-left: 1rem;
-    height: 50px;
-}
-
-.navbaritem {
-    margin: 5px;
-    padding: 10PX;
-}
-/* imagenlanding */
-.imagenlanding{
-    max-width: 376px;
-    height: 200px;
-    position: static;
-}
-.logolanding{
-    width: 56px;
-}
-
-.logolanding img{
-    width: 56px;
-}
-
-/* tarjetas de quienes somos */
-
 .tarjeta1 {
     gap: 0;
     margin: 12px auto;
@@ -481,43 +445,6 @@ footer{
     width: 80px;
     gap: 2rem; 
 }
-
-/* Noticias */
-/* 
-.notis{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    
-}
-.noti1{
-    flex-direction: row;
-    width: 280px;
-    height: 100px;
-    background-color: #D9D9D9;
-    border-radius: 22px;
-}
-.noti2{
-    flex-direction: row;
-    width: 280px;
-    height: 100px;
-    background-color: #D9D9D9;
-    border-radius: 22px;
-}
-.noti3{
-    flex-direction: row;
-    width: 280px;
-    height: 100px;
-    background-color: #D9D9D9;
-    border-radius: 22px;
-}
-
-.notis p{
-    margin: 6px;
-}
-.notis button{
-    display: none;
-} */
 
 /* newsletter */
 
