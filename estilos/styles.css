@@ -253,6 +253,45 @@
 }
 
 
+
+/* PAGINA CONOCENOS */
+
+.contenedornosotros article{
+    padding: 2rem;
+    
+    text-align: justify;
+}
+.contenedormarcas{
+    background-color: #53B9AE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.contenedormarcas h3{
+    color: #F6E6D8;
+}
+.carousel {
+    max-width: 80%;
+}
+
+.contenedornewsletter{
+    background-color: #E8581A;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedornewsletter h3, .contenedornewsletter p {
+    color: #F6E6D8;
+}
+
+footer{
+    line-height: 5px;
+}
+
+
+
 /* media querys */
 @media (min-width:1024px) {
     
