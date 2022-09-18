@@ -125,8 +125,10 @@ p {
 
 .contenedornosotros article{
     padding: 2rem;
-    
     text-align: justify;
+}
+.bloquetexto img {
+    display: none;
 }
 .contenedormarcas{
     background-color: #53B9AE;
@@ -283,6 +285,22 @@ footer{
     
  }
 
+ /* PAGINA CONOCENOS */
+
+.contenedornosotros{
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+.bloquetexto{
+    border: 1px solid #53B9AE;
+    border-radius: 24px;
+    max-width: 50%;
+    margin: 12px 0 12px;
+}
+
+
 }
 @media (min-width:1024px){
 
@@ -326,6 +344,26 @@ footer{
     width: 90px;
     gap: 2rem;
     
+}
+
+/* PAGINA CONOCENOS */
+
+.contenedornosotros {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+.bloquetexto{
+    display: flex;
+    max-width: 80%;
+}
+
+.texto{
+    margin: 22px;
+}
+.bloquetexto img{
+    display: unset;
+    border-radius: 16px;
 }
 
 }
