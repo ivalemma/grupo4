@@ -144,7 +144,10 @@ p {
     color: #F6E6D8;
 }
 .carousel {
-    max-width: 80%;
+    max-width: 70%;
+}
+.carousel-item img{
+    border-radius: 500px;
 }
 
 
