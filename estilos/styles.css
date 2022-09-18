@@ -36,7 +36,7 @@ p {
     
 }
 .logolanding img{
-    margin: 12px;
+    margin: 12px auto;
     background-color: hsl(0, 0%, 96%, 0.2);
     border-radius: 600px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -310,8 +310,23 @@ footer{
 
 
 }
+
+/* MEDIA QUERYS WEB */
+
 @media (min-width:1024px){
 
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
 .noticias{
     max-width: fit-content;
     margin: 0 auto;
@@ -326,26 +341,20 @@ footer{
 }
 
 
-
-.tarjeta1 {
-    gap: 3rem;
-    margin: 3rem auto;
-    width: 80%;
-    display: flex;
+.tarjetaslanding{
+    margin: 0 auto;
+    max-width: 80%;
 }
-
 .infotarje {
    width: 540px;
    height: 220px;
    display: flex;
    align-items: center;
-
 }
-
 
 .infotarjetxt{
     max-width: 80%;
-    padding: 2rem;
+    padding: 1rem;
     gap: 1rem;
     display: flex;
     flex-direction: column;
@@ -361,6 +370,7 @@ footer{
 .insignias img {
     width: 90px;
     gap: 2rem;
+    margin: 12px;
     
 }
 
