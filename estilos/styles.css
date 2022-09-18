@@ -32,7 +32,8 @@ p {
 /* tarjetas presentacion landing */
 
 .logolanding{
-    background-image: url(../imagenes/fondo2.svg)
+    background-image: url(../imagenes/fondo3.svg);
+    margin: 0 auto;
     
 }
 .logolanding img{
@@ -69,7 +70,20 @@ p {
     margin-top: 12px;
 }
  .insignias img {
-    width: 60px;
+    width: 100px;
+ }
+
+.infografia{
+    display: flex;
+}
+ .infografia img {
+    background-color: hsl(0, 0%, 96%, 0.1);
+    border: 1px solid #53B9AE;
+    backdrop-filter: blur(20px);
+    max-width: 90%;
+    padding: 12px;
+    margin: 12px auto;
+    border-radius: 24px;
  }
 
 .navbar-brand img {
@@ -360,18 +374,31 @@ footer{
     flex-direction: column;
 }
 
+.tarjeinsignias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .insignias {
     display: flex; 
-    margin: 0 auto;
-    gap: 4rem;
+    flex-direction: column;
+    margin: 0;
     
 }
 
 .insignias img {
-    width: 90px;
-    gap: 2rem;
+    width: 160px;
     margin: 12px;
     
+}
+.infografia{
+    background-image: none;
+}
+
+.infografia img {
+    height: 600px;
+    width: auto;
+    background-color: hsl(0, 0%, 96%, 0.6);
 }
 
 /* PAGINA CONOCENOS */
