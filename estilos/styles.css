@@ -169,27 +169,6 @@ p {
 }
 
 
-
-
-
-
-
-/* FOOTER */
-
-footer{
-    line-height: 5px;
-}
-
-
-
-
-/* web */
-
-
-
-
-
-
 /* pagina de contacto */
 
 
@@ -237,13 +216,17 @@ footer{
 
 /* FOOTER */
 
+footer{
+    line-height: 5px;
+}
+
+
 .footer {
     background-color: beige;
     height: 240px;
     width: 100%;
     display: flex;
     bottom: 0;
-    
 
 }
 
@@ -266,18 +249,28 @@ footer{
 }
 
 
-
-
-
 /* media querys tablet*/
 
 @media (min-width:768px) {
+/* INDEX */
+
+.tarjetaslanding{
+    display: flex;
+}
+.insignias img{
+    width: 100px;
+}
+.notis {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* PAGINA CONTACTO */
  .form{
     flex-direction: row;
  }
 
-}
-
+/* PAGINA NOTICIAS */
 .card img {
     display: unset;
     height: 200px;
@@ -290,9 +283,7 @@ footer{
     
  }
 
-
-
-
+}
 @media (min-width:1024px){
 
 .noticias{
