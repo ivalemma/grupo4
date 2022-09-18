@@ -36,8 +36,11 @@ p {
     
 }
 .logolanding img{
-    backdrop-filter: blur(80px);
-    background-color: hsl(0, 0%, 96%, 0.2)
+    margin: 12px;
+    background-color: hsl(0, 0%, 96%, 0.2);
+    border-radius: 600px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
 }
 .tarjetaslanding{
     padding: 6px;
