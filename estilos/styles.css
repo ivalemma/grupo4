@@ -32,7 +32,7 @@ p {
 /* tarjetas presentacion landing */
 
 .logolanding{
-    background-color: #53B9AE;
+    background-image: url(../imagenes/fondo2.svg)
     
 }
 .logolanding img{
