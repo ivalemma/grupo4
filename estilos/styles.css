@@ -26,109 +26,61 @@ h3{
     font-size: 16px;
 }
 p {
-    font-size: 14px;
+    font-size: 12px;
 }
-.logolanding img{
-    width: 160px;
-}
+
+/* tarjetas presentacion landing */
+
 .logolanding{
-    width: 160px;
+    background-color: #53B9AE;
 }
-/* .tarjeta1 {
-    gap: 0;
-    margin: 12px auto;
-    flex-direction: column;
+.tarjetaslanding{
+    padding: 6px;
+    margin-top: 12px;
 }
-
-.infotarje img{
-    width: 80px;
-}
-
-.infotarje {
-   width: 280px;
-   height: 180px;
-   
-}
-
-.infotarjetxt{
-    max-width: 80%;
-    padding: 12px;
-    gap: 1rem;
-} */
-/* esto tiene que ir en la query de web */
-
-/* .tarjeta1 {
-    gap: 0;
-    margin: 12px auto;
-    flex-direction: row;
-}
-
-.infotarje {
-   width: fit-content;
-   height: 180px;
-
+.infotarje{
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    max-width: 340px;
+    margin: 0 auto;
+    
 }
 .infotarje img{
-    width: 100px;
+    height: 120px;
 }
 
-.infotarjetxt{
-    max-width: 80%;
-    padding: 12px;
-    gap: 1rem;
+.tarjeinsignias{
+    padding: 6px;
+    margin: 0 auto;
 }
- */
+.insignias {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 12px;
+}
+ .insignias img {
+    width: 60px;
+ }
+
+.navbar-brand img {
+    height: 50px;
+}
 /* Noticias */
 
 .notis{
 display: flex;
 flex-direction: column;
-gap: 1rem;
 
 }
 .noti{
-flex-direction: row;
-width: 300px;
-height: 100px;
+width: 280px;
+height: fit-content;
 background-color: #D9D9D9;
-border-radius: 22px;
-
+border-radius: 12px;
 }
 
-.notis p{
-margin: 6px;
-padding: 0;
-width: 50%;
-}
-.notis button{
-display: none;
-
-}
-.notis img{
-border-radius: 22px;
-width: 50%;
-}
-
-
-
-/* insignias */
-
-.insignias {
-    gap: 10px; 
-}
-
-.insignias img {
-    width: 80px;
-    gap: 2rem; 
-}
-
-/* newsletter */
-
-.tarjenewsletter{
-    height: 180px;
-    flex-direction: column;
-    justify-content:center;
-}
 
 /* CONTACT PAGE */
 .formulario{
@@ -207,46 +159,6 @@ footer{
 /* web */
 
 
-.tarjeta1 {
-    gap: 3rem;
-    margin: 3rem auto;
-    width: 80%;
-    display: flex;
-}
-
-.infotarje {
-   width: 540px;
-   height: 220px;
-   display: flex;
-   align-items: center;
-
-}
-
-
-.infotarjetxt{
-    max-width: 80%;
-    padding: 2rem;
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-.tarjeta2 {
-    display: flex;
-    margin: 2rem;
-}
-
-.insignias {
-    display: flex; 
-    margin: 0 auto;
-    gap: 4rem;
-    
-}
-
-.insignias img {
-    width: 90px;
-    gap: 2rem;
-    
-}
 
 /* NOTICIAS */
 
@@ -386,6 +298,43 @@ footer{
 .noticias{
     max-width: 80%;
     margin: 0 auto;
+}
+
+.tarjeta1 {
+    gap: 3rem;
+    margin: 3rem auto;
+    width: 80%;
+    display: flex;
+}
+
+.infotarje {
+   width: 540px;
+   height: 220px;
+   display: flex;
+   align-items: center;
+
+}
+
+
+.infotarjetxt{
+    max-width: 80%;
+    padding: 2rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.insignias {
+    display: flex; 
+    margin: 0 auto;
+    gap: 4rem;
+    
+}
+
+.insignias img {
+    width: 90px;
+    gap: 2rem;
+    
 }
 
 }
