@@ -182,11 +182,10 @@ p {
     margin: 0 auto;
 }
 .form{
-    margin: 2rem auto;
-    width: 80%;
     display: flex;
-    justify-content: space-around;
-    gap: 1rem;
+    margin: 2rem auto;
+    gap: 10px;
+    max-width: fit-content;
     
 }
 .itemform{
@@ -194,11 +193,11 @@ p {
     flex-direction: column;
 }
 .columnaform{
-    padding: 1rem;
+    padding: 10px;
 }
 
 .itemform{
-    width: 260px;
+    width: 200px;
 }
 .itemform input{
     border-radius: 14px;
@@ -268,9 +267,7 @@ footer{
 }
 
 /* PAGINA CONTACTO */
- .form{
-    flex-direction: row;
- }
+ 
 
 /* PAGINA NOTICIAS */
 .card img {
@@ -364,6 +361,12 @@ footer{
 .bloquetexto img{
     display: unset;
     border-radius: 16px;
+}
+
+/* PAGINA CONTACTO */
+.form{
+    max-width: max-content;
+    flex-direction: row;
 }
 
 }
