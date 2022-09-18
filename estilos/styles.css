@@ -33,6 +33,11 @@ p {
 
 .logolanding{
     background-color: #53B9AE;
+    
+}
+.logolanding img{
+    backdrop-filter: blur(80px);
+    background-color: hsl(0, 0%, 96%, 0.2)
 }
 .tarjetaslanding{
     padding: 6px;
@@ -67,24 +72,46 @@ p {
 .navbar-brand img {
     height: 50px;
 }
-/* Noticias */
+/* NOTICIAS */
 
 .notis{
-display: flex;
-flex-direction: column;
-
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
 }
+
 .noti{
-width: 280px;
-height: fit-content;
-background-color: #D9D9D9;
-border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 322px;
+    max-height: fit-content;
+    border-radius: 24px;
+    border: 2px solid #A2B8AB;
+}
+.noti button{
+    max-width: 30%;
+    margin: 0 auto;
+    
+}
+
+.notis p{
+    margin: 1rem;
+}
+.notis img{
+    border-radius: 14px;
 }
 
 
 /* CONTACT PAGE */
 .formulario{
     max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
 }
 .form {
     flex-direction: column;
@@ -160,34 +187,7 @@ footer{
 
 
 
-/* NOTICIAS */
 
-.notis{
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    
-}
-
-.noti{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    width: 322px;
-    height: 400px;
-    background-color: #D9D9D9;
-    border-radius: 22px;
-}
-
-.notis p{
-    margin: 2rem;
-}
-.notis img{
-    border-radius: 22px;
-    
-}
 
 
 /* pagina de contacto */
