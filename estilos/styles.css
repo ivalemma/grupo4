@@ -157,14 +157,20 @@ p {
 .contenedormarcas h3{
     color: #F6E6D8;
 }
-.carousel {
+.carouselmarcas {
     max-width: 70%;
 }
-.carousel-item img{
+.carousel-marcas-item img{
     border-radius: 500px;
 }
 
+.articulos{
+    padding: 12px;
+}
 
+.articulos button{
+    margin-bottom: 6px;
+}
 
 /* PAGINA CONTACTO */
 
@@ -232,6 +238,14 @@ p {
     margin-left: 8px;
     height: 36px;
     width: 114px;
+}
+
+/* GALERIA */
+
+
+.carousel-item-galeria img{
+    max-height: 220px;
+    overflow: hidden;
 }
 
 
@@ -320,6 +334,13 @@ footer{
     border-radius: 24px;
     max-width: 50%;
     margin: 12px 0 12px;
+}
+
+/* GALERIA PAGE */
+
+.carousel-item-galeria img{
+    max-height: 400px;
+    overflow: hidden;
 }
 
 
