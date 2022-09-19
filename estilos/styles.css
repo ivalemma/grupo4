@@ -247,7 +247,28 @@ p {
     max-height: 220px;
     overflow: hidden;
 }
-
+.galeria-trabajo{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.fotos-trabajo{
+    margin: 12px auto;
+    max-width: 270px;
+    padding: 6px;
+    border: 1px solid #53B9AE;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotos-trabajo img{
+    max-width: 80%;
+}
 
 /* FOOTER */
 
@@ -341,6 +362,10 @@ footer{
 .carousel-item-galeria img{
     max-height: 400px;
     overflow: hidden;
+}
+.galeria-trabajo{
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
