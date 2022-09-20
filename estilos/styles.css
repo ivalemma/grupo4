@@ -166,9 +166,30 @@ p {
 
 .articulos{
     padding: 12px;
+    background-image: url(../imagenes/fondo3.svg);
+    background-size: cover;
+}
+.articulos-blur {
+    padding: 12px;
+    margin: 12px auto;
+    background-color: hsl(0, 0%, 96%, 0.2);
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
 }
 
 .articulos button{
+    margin-bottom: 6px;
+    max-width: 80px;
+}
+
+.articulos-blur div{
+    border-radius: 22px;
     margin-bottom: 6px;
 }
 
@@ -465,6 +486,16 @@ footer{
 .bloquetexto img{
     display: unset;
     border-radius: 16px;
+}
+
+.articles{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articles div{
+    max-width: 460px;
 }
 
 /* PAGINA CONTACTO */
