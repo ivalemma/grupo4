@@ -6,3 +6,9 @@ if(edadUsuario >= edadMinima) {
 } else {
     alert("No podes donar")
 }
+
+function validacion(){
+    alert("Tus mensaje se envio correctamente")
+}
+
+
