@@ -265,7 +265,10 @@ p {
 
 /* GALERIA */
 
-
+.carousel-galeria {
+    max-width: 85%;
+    margin: 0 auto;
+}
 .carousel-item-galeria img{
     max-height: 220px;
     overflow: hidden;
