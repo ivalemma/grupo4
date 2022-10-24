@@ -28,7 +28,11 @@ h3{
 p {
     font-size: 12px;
 }
-
+ 
+a{
+    text-decoration: none;
+    color: darkgray;
+}
 /* tarjetas presentacion landing */
 
 .logolanding{
@@ -334,8 +338,18 @@ footer{
     max-width: 90%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0 auto;
+}
 
+.body-article{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.articulo img{
+    max-width: 300px;
+    margin-bottom: 1rem;
 }
 
 
@@ -517,4 +531,20 @@ footer{
     flex-direction: row;
 }
 
+}
+
+/* articulo/noticia */
+
+
+.articulo {
+    max-width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+} 
+
+.articulo img{
+    margin: 1rem;
+    
 }
