@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300;1,400;1,700&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../imagenes/logoheader.svg" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="articulo">
+        <h2>Te enseñamos como hacer tus propios tintes naturales</h2>
+        <img src="../imagenes/articulo1.svg" alt="">
+        <article class="body-article">
+            <p></p>
+            Tres días de desmayos masivos fueron reportados [en] en fábricas textiles en Camboya la primera semana de
+            abril. En Phnom Penh, la capital del país, 337 trabajadores, mayormente mujeres, fueron enviados a cuatro
+            centros médicos para su tratamiento.
+
+            Durante la semana los desmayos ocurrieron en 11 edificios en tres fábricas dentro de Vantanak Park –
+            Shenzhou, Daqian Textile y New Wide. Estos nombres no son conocidos fuera de Camboya, pero producen ropa
+            para las marcas deportivas internacionales Adidas, Puma y Nike.
+
+            En Camboya, el sector textil es una industria que aporta 5,000 millones de dólares en exportaciones y emplea
+            a más de 600,000 trabajadores, pero durante muchos años los trabajadores se han estado quejando del mísero
+            salario que reciben.
+
+            Los grupos laborales sospecharon en un primer momento que las causas del desmayo en los trabajadores habían
+            sido “el agua insalubre, la comida y las fuertes pestilencias de la fábrica”. Con regularidad se ha
+            informado de casos de desmayos masivos y se ha culpado de estos a las pésimas condiciones laborales
+            presentes en las fábricas.
+
+            El pasado diciembre, los trabajadores del sector textil pidieron al gobierno que duplicara el salario mínimo
+            mensual de 80 a 160 dólares, pero el gobierno alegó que la economía solo puede sostener un aumento de unos
+            15 a 20 dólares. En respuesta, los sindicatos del sector llevaron a cabo una huelga a nivel nacional, pero
+            esta fue dispersada el último enero por las fuerzas policiales de forma violenta.
+
+            El lugar de la sangrienta represión se encuentra solo a unos pocos metros de las dos fábricas donde han
+            enfermado y se han desmayado masivamente los trabajadores la semana pasada.
+        </article>
+
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footerinfo">
+                <div class="redes">
+                    <img src="../imagenes/Vector-1.svg" alt="">
+                    <img src="../imagenes/Vector-2.svg" alt="">
+                    <img src="../imagenes/Vector.svg" alt="">
+                </div>
+                <div class="info">
+                    <p>2022 | Fundación RE | Todos los derechos reservados</p>
+                    <p>La Plata, Buenos Aires | Argentina | 9 436 Piso 1</p>
+                    <p>Tel. 2216261068 | somosre@gmail.com</p>
+                    <p>Desarrollado con amor por grupo 4</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
