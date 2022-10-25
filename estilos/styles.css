@@ -300,6 +300,24 @@ a{
     max-width: 80%;
 }
 
+/* galeria de imagenes de jornada4 */
+
+.grilla-imagenes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem;
+    
+
+}
+
+.grilla-imagenes img{
+    width: max-content;
+}
+
 /* FOOTER */
 
 footer{
@@ -334,7 +352,8 @@ footer{
     align-items: center;
 }
 /* pagina de articulo */
-.articulo {
+
+.articulo{
     max-width: 90%;
     display: flex;
     flex-direction: column;
@@ -416,7 +435,12 @@ footer{
     flex-wrap: wrap;
 }
 
-
+.grilla-imagenes{
+    margin: 1rem auto;
+    max-width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 }
 
 /* MEDIA QUERYS WEB */
