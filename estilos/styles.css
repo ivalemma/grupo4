@@ -268,15 +268,23 @@ a{
 
 
 /* GALERIA */
+.carrusel-items{
+    display: flex;
+    overflow-x: scroll;
+}
 
-.carousel-galeria {
-    max-width: 85%;
-    margin: 0 auto;
+.carrusel-item{
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
 }
-.carousel-item-galeria img{
-    max-height: 220px;
-    overflow: hidden;
+
+.carrusel-item img{
+    height: 100%;
+    object-fit: cover;
 }
+
+
 .galeria-trabajo{
     max-width: 90%;
     margin: 0 auto;
