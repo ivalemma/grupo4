@@ -268,23 +268,36 @@ a{
 
 
 /* GALERIA */
+.carrusel{
+    padding: 1rem;
+    max-width: fit-content;
+    max-height: max-content;
+    background-image: url(../imagenes/fondo3.svg);
+}
 .carrusel-items{
     display: flex;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .carrusel-item{
-    max-width: 300px;
-    max-height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .carrusel-item img{
     height: 100%;
     object-fit: cover;
+    
 }
 
-
+.carrusel-item:hover{
+    transform: scale(1.2);
+    
+}
 .galeria-trabajo{
     max-width: 90%;
     margin: 0 auto;
