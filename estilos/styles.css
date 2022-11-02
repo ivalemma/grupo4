@@ -276,8 +276,9 @@ a{
 }
 .carrusel-items{
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: hidden;
+
 }
 
 .carrusel-item{
