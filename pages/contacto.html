@@ -56,25 +56,25 @@
 
             </div>
             <div class="form">
-                <form class="form" action="">
+                <form class="form" id="form" action="https://formspree.io/f/xoqbyynp" method="POST">
                     <div class="columnaform">
                         <p class="itemform">  
-                            <input type="text" placeholder="Nombre" />
+                            <input type="text" name="nombre" placeholder="Nombre" />
                         </p>
                         <p class="itemform"> 
-                            <input type="text" placeholder="Apellido" />
+                            <input type="text" name= apellido placeholder="Apellido" />
                         </p>
                         <p class="itemform">
-                            <input type="email" placeholder="email@gmail.com">
+                            <input type="email" name="mail" placeholder="email@gmail.com">
                         </p>
                     </div>
                     <div class="columnaform">
                         <p class="itemform"> 
-                            <textarea rows="3" placeholder="Mensaje"></textarea>
+                            <textarea rows="3" name="mensaje" placeholder="Mensaje"></textarea>
                         </p>
                         <div class="botones">
                             <button type= reset class="btn btn-light">Borrar formulario</button>
-                            <button type= submit class="btn btn-light" onclick="validacion()">Enviar mensaje</button>
+                            <button type= submit id="submit" class="btn btn-light" >Enviar mensaje</button>
                         </div> 
                     </div> 
                 </form>

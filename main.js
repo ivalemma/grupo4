@@ -48,3 +48,31 @@ carrusel.addEventListener("mouseout", () => {
 
 start();
 
+
+
+//formulario funcional
+
+//primero linkea el action y method en html
+
+const $form = document.querySelector("form");
+//para usar this
+$form.addEventListener("submit", handleSubmit);
+
+// pareciera que no funciona el preventdefault, no sabemos que onda
+async function handleSubmit(event) {
+    event.preventDefault();
+    
+    const formulario = new FormData(this);
+    const response = await fetch(this.action, {
+        method: this.method,
+        body: formulario,
+        headers: {
+            'Accept' : 'application/json'
+        }
+    })
+}
+if (response.ok) {
+    this.reset ()
+    alert("Gracias por enviarnos tu mensaje")
+}
+
