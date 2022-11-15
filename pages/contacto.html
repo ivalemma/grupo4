@@ -56,29 +56,34 @@
 
             </div>
             <div class="form">
-                <form class="form" id="form" action="https://formspree.io/f/xoqbyynp" method="POST">
-                    <div class="columnaform">
-                        <p class="itemform">  
-                            <input type="text" name="nombre" placeholder="Nombre" />
-                        </p>
-                        <p class="itemform"> 
-                            <input type="text" name= apellido placeholder="Apellido" />
-                        </p>
-                        <p class="itemform">
-                            <input type="email" name="mail" placeholder="email@gmail.com">
-                        </p>
-                    </div>
-                    <div class="columnaform">
-                        <p class="itemform"> 
-                            <textarea rows="3" name="mensaje" placeholder="Mensaje"></textarea>
-                        </p>
+                <form id="form" class="form" action="https://formspree.io/f/xoqbyynp" method="post">
+                    <label for="nombre">Nombre</label>
+                        <input class="itemform" type="text" name="nombre"  />
+                        <label for="apellido">Apellido</label>
+                        <input class="itemform" type="text" name=apellido  />
+                        <label for="email">Mail</label>
+                        <input class="itemform" type="email" name="mail" />
+                        <label for="mensaje">Mensaje</label>
+                        <textarea rows="3" name="mensaje" ></textarea>
                         <div class="botones">
-                            <button type= reset class="btn btn-light">Borrar formulario</button>
-                            <button type= submit id="submit" class="btn btn-light" >Enviar mensaje</button>
-                        </div> 
-                    </div> 
-                </form>
-
+                            <button type=reset class="btn btn-light">Borrar formulario</button>
+                            <button type=submit id="submit" class="btn btn-light">Enviar mensaje</button>
+                        </div>
+                    </form>
+                <!-- <form class="fform" id="fform" action="https://formspree.io/f/xoqbyynp" method="POST">
+                    
+                        <label for="nombre">Nombre</label>
+                        <input class="itemform" type="text" name="nombre" placeholder="Nombre" />
+                        <label for="apellido">Apellido</label>
+                        <input class="itemform" type="text" name=apellido placeholder="Apellido" />
+                        <label for="email">Mail</label>
+                        <input class="itemform" type="email" name="mail" placeholder="email@gmail.com" />
+                        <textarea rows="3" name="mensaje" placeholder="Mensaje"></textarea>
+                        <div class="botones">
+                            <button type=reset class="btn btn-light">Borrar formulario</button>
+                            <button type=submit id="submit" class="btn btn-light">Enviar mensaje</button>
+                        </div>
+                </form> -->
             </div>
         </div>
 
@@ -108,7 +113,7 @@
 
             </div>
         </footer>
-        <script src="../main.js"></script>
+        <script src="../formulario.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>

@@ -7,9 +7,7 @@ if(edadUsuario >= edadMinima) {
     alert("No podes donar")
 } */
 
-function validacion(){
-    alert("Tus mensaje se envio correctamente")
-}
+
 
 /* carrusel funcionamiento si dios quiere */
 
@@ -54,9 +52,9 @@ start();
 
 //primero linkea el action y method en html
 
-const $form = document.querySelector("form");
+/* const fform = document.querySelector("form");
 //para usar this
-$form.addEventListener("submit", handleSubmit);
+fform.addEventListener("submit", handleSubmit);
 
 // pareciera que no funciona el preventdefault, no sabemos que onda
 async function handleSubmit(event) {
@@ -75,4 +73,4 @@ if (response.ok) {
     this.reset ()
     alert("Gracias por enviarnos tu mensaje")
 }
-
+ */
