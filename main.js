@@ -1,13 +1,3 @@
-//let edadMinima = 18;
-/* let edadUsuario = prompt("Ingrese su edad");
-
-if(edadUsuario >= edadMinima) {
-    alert("Podes ingresar a donar");
-} else {
-    alert("No podes donar")
-} */
-
-
 
 /* carrusel funcionamiento si dios quiere */
 
@@ -47,30 +37,3 @@ carrusel.addEventListener("mouseout", () => {
 start();
 
 
-
-//formulario funcional
-
-//primero linkea el action y method en html
-
-/* const fform = document.querySelector("form");
-//para usar this
-fform.addEventListener("submit", handleSubmit);
-
-// pareciera que no funciona el preventdefault, no sabemos que onda
-async function handleSubmit(event) {
-    event.preventDefault();
-    
-    const formulario = new FormData(this);
-    const response = await fetch(this.action, {
-        method: this.method,
-        body: formulario,
-        headers: {
-            'Accept' : 'application/json'
-        }
-    })
-}
-if (response.ok) {
-    this.reset ()
-    alert("Gracias por enviarnos tu mensaje")
-}
- */
